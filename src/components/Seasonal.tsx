@@ -40,7 +40,7 @@ export const Seasonal = () => {
       </div>
 
       <div className="w-full flex justify-center">
-        <Button variant="outline" className="mt-10 justify-center flex bg-yellow-700 bg-opacity-20 border-none rounded-sm"><p className="opacity-70">VIEW MOTHER'S DAY COLLECTION</p></Button>
+        <Button variant="outline" className="mt-10 justify-center flex bg-sky-700 bg-opacity-20 border-none rounded-sm"><p className="opacity-70">VIEW MOTHER'S DAY COLLECTION</p></Button>
       </div>
 
     </section>
