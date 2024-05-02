@@ -3,19 +3,19 @@ import { LogoIcon } from "./Icons";
 
 export const Footer = () => {
   return (
-    <footer id="footer">
+    <footer id="footer" className="bg-yellow-900 bg-opacity-10" style={{ fontFamily: "Kaushan" }}>
       <hr className="w-11/12 mx-auto" />
 
-      <section className="container py-20 grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-x-12 gap-y-8">
+      <section className="container py-20 grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-x-12 gap-y-8 tracking-wider ">
         <div className="col-span-full xl:col-span-2">
-          <Link href="/" className="font-bold text-xl flex">
+          <Link href="/" className="font-bold text-xl flex opacity-70">
             <LogoIcon />
             ShadcnUI/React
           </Link>
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Follow US</h3>
+          <h3 className="font-bold text-lg opacity-70">Follow Us</h3>
           <div>
             <Link href="#" className="opacity-60 hover:opacity-100">
               Github
@@ -36,7 +36,7 @@ export const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Platforms</h3>
+          <h3 className="font-bold text-lg opacity-70 ">Platforms</h3>
           <div>
             <Link href="#" className="opacity-60 hover:opacity-100">
               Web
@@ -57,7 +57,7 @@ export const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">About</h3>
+          <h3 className="font-bold text-lg opacity-70">About</h3>
           <div>
             <Link href="#" className="opacity-60 hover:opacity-100">
               Features
@@ -78,7 +78,7 @@ export const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Community</h3>
+          <h3 className="font-bold text-lg opacity-70">Community</h3>
           <div>
             <Link href="#" className="opacity-60 hover:opacity-100">
               Youtube
@@ -99,7 +99,7 @@ export const Footer = () => {
         </div>
       </section>
 
-      <section className="container pb-14 text-center">
+      <section className="container pb-14 text-center opacity-70">
         <h3>
           &copy; 2024 Landing page made by{" "}
           <Link
@@ -107,7 +107,7 @@ export const Footer = () => {
             href="https://github.com/fredygerman"
             className="text-primary transition-all border-primary hover:border-b-2"
           >
-            Fredy German
+            Nephter 🫠
           </Link>
         </h3>
       </section>

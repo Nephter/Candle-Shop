@@ -150,3 +150,22 @@
   font-weight: normal;
   font-style: normal;
 }
+
+/* Define this in your global CSS file */
+[data-active='true'] p {
+  border-bottom-color: blue; /* Sets underline color to blue when active */
+  border-bottom-width: 2px; /* Sets underline thickness */
+}
+
+/* Use Tailwind's utilities for hover state */
+.hover\:border-blue-500:hover p {
+  border-bottom-color: blue;
+}
+.no-shadow {
+  box-shadow: none !important;
+}
+
+[data-state='active'] > p {
+  border-bottom-width: 3px; /* Matches focus:border-b-[3px] */
+  border-color: #718096; /* slate-700 color */
+}

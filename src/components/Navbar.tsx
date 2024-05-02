@@ -22,7 +22,7 @@ export const Navbar = () => {
           <NavigationMenuItem className="font-bold flex">
             <a href="/" className="ml-2 font-bold text-xl flex space-x-2 items-center">
               <CandleLight />
-              <span className="hidden md:block pt-1" style={{ fontFamily: "Kaushan" }}>{title}</span>
+              <span className="hidden md:block pt-1 tracking-wider" style={{ fontFamily: "Kaushan" }}>{title}</span>
             </a>
           </NavigationMenuItem>
 
@@ -32,7 +32,7 @@ export const Navbar = () => {
               <Link
                 href={route.href}
                 key={i}
-                className={`text-[17px] ${buttonVariants({
+                className={`tracking-widest text-[17px] ${buttonVariants({
                   variant: "ghost",
                 })}`}
               >
