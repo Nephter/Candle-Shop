@@ -6,6 +6,7 @@ import { Footer } from "@/src/components/Footer";
 import { Navbar } from "@/src/components/Navbar";
 import { ScrollToTop } from "@/src/components/ScrollToTop";
 
+
 import "./globals.css";
 import { siteConfig } from "@/src/config/site";
 

@@ -25,6 +25,7 @@ export const Navbar = () => {
               <span className="hidden md:block pt-1 tracking-wider" style={{ fontFamily: "Kaushan" }}>{title}</span>
             </a>
           </NavigationMenuItem>
+          <div className="flex-grow" />
 
           {/* desktop */}
           <nav className="hidden md:flex gap-2" >
@@ -43,9 +44,8 @@ export const Navbar = () => {
             ))}
           </nav>
 
-          <div className="hidden md:flex gap-2">
-            <ModeToggle />
-          </div>
+
+
         </NavigationMenuList>
       </NavigationMenu>
     </header>
